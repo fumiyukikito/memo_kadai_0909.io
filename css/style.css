@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    width:100%;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+h1{
+    font-size: 100%;
+}
+main{
+    width:100%;
+    display: block;
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color:#0d7dfd;
+}
+li:hover{
+    background: #0d7dfd;
+    color:#fff;
+}
+textarea{
+    margin: 10px 3%;
+    width: 95%;
+    height: 84px;
+    font-size: 50%;
+    box-shadow: 0px 0px 0px 0px #555;
+    background-color: rgb(255 255 255);
+}
+#key{
+    margin: -1px 8px 1px 0pt;
+    width: 38%;
+    font-size: 80%;
+    background-color: #fff;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #555;
+    height: 90%;
+}
+table{
+    margin: 20px 3%;
+    border:1px solid #8dc3f5;
+    width:96%;
+    
+}
+
+
+
+th{
+    width:15%;
+    font-size:12px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+td{ 
+    font-size:12px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+
+.jikoku
+{display: flex;
+}
+
+.jikoku_1{
+    font-size: 15px;
+    font: bold;
+}
+
+#DateTimeDisp{
+    font-size: 15px;
+   
+   text-align: left;
+}
+/* なぜ、#でないとできないのか。 */
+
+.kokyaku{
+    display: flex;
+    margin-top: 10px;
+
+
+}
+
+h2{
+        font-size: 15px;
+        margin: auto 5px;
+}
+
+div#hiduke{
+font-size: 70%;
+text-align: left;
+border-bottom: 1px solid #FFE;
+height: 31px;
+}
+
+/* なぜここのdivはシャープになるのか */
+
+.result{
+    display: flex;
+}
+.result_1{
+    font-size: 15px;
+    text-align: center;
+    font:bold;
+    margin-top: 10px;
+
+}
+
+.result_2 {
+    text-align: right;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
